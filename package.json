@@ -1,0 +1,63 @@
+{
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.21.4",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.12",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-http": "^1.5.15",
+    "bootstrap": "3.3.7",
+    "chartist": "0.10.1",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "node-sass": "4.12.0",
+    "react": "16.8.6",
+    "react-bootstrap": "0.32.4",
+    "react-chartist": "0.13.3",
+    "react-dom": "16.8.6",
+    "react-google-maps": "9.4.5",
+    "react-notification-system": "0.2.17",
+    "react-redux": "^7.1.0",
+    "react-router": "5.0.0",
+    "react-router-dom": "5.0.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.0.0",
+    "react-toggle": "4.0.2",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "3.30.19",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.8.13",
+    "typescript": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/sass/e-commerce.scss src/assets/css/e-commerce.css",
+    "minify-sass": "node-sass src/assets/sass/e-commerce.scss src/assets/css/e-commerce.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/sass/e-commerce.scss src/assets/css/e-commerce.css --source-map true"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
