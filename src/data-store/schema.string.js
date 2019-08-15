@@ -2,9 +2,9 @@ import gql from "graphql-tag";
 
 export const Ecomm = {
   fetchEcommItems: gql`
-    query($where: carConstraints) {
+    query($where: carConstraints, $order: [carOrder!]) {
       objects {
-        findcar(where: $where) {
+        findcar(where: $where, order: $order) {
           count
           results {
             objectId

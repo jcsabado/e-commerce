@@ -14,7 +14,8 @@ class ProductList extends Component {
   componentWillMount() {
     const { fetchData } = this.props;
     let data = {
-      where: {}
+      where: {},
+      order: "createdAt_DESC"
     };
     fetchData(Ecomm.fetchEcommItems, data);
   }
