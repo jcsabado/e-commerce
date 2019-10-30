@@ -9,7 +9,7 @@
     "apollo-link": "^1.2.12",
     "apollo-link-context": "^1.0.18",
     "apollo-link-http": "^1.5.15",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "chartist": "0.10.1",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
